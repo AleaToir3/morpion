@@ -26,9 +26,9 @@ class Player
                 puts "="*15
                 puts
                 BoardCase.show_board
+                puts
                 @victory = true
                 break
-                puts
             end
         end
     end    
